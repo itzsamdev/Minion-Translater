@@ -10,9 +10,10 @@ body {
 }
 
 .header {
+    width: 100vw;
     padding-bottom: 2rem;
     text-align: center;
-    height: 10rem;
+    height: 5rem;
     background-color: var(--primarycolor);
 }
 
@@ -31,13 +32,13 @@ body {
 }
 
 .container-center {
-    max-width: 650px;
+    max-width: 37rem;
     margin: auto;
 }
 
 #input {
     margin-top: 3rem;
-    width: 615px;
+    width: 37rem;
     height: 10vh;
     display: block;
     padding: 1rem;
@@ -52,6 +53,7 @@ body {
     height: 8vh;
     border-color: white;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #output-info {
@@ -62,17 +64,22 @@ body {
 #output {
     border: 1px solid black;
     margin-bottom: 3rem;
-    width: 615px;
+    width: 37rem;
     height: 10vh;
     display: block;
     padding: 1rem;
 }
 
 .footer {
+    width: 100vw;
     background-color: var(--primarycolor);
     padding: 1rem 1rem;
     text-align: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .footer-header {
